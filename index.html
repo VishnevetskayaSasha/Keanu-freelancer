@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Фрилансер">
+  <meta name="keywords" content="html, css">
+  <meta name="author" content="Саша Вишневецкая">
+  <title>Фрилансер</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./vendor/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+  <div class="page">
+    <header class="header">
+      <img src="./images/logo.svg" alt="Логотип" class="header__logo">
+      <div class="socials">
+        <ul class="socials__list-logo">
+          <li class="cosials__logo">
+            <a href="https://github.com/" target="_blank"> <img src="./images/github.svg" alt="GitHub логотип" class="cosials__logo-img link"></a>
+          </li>
+          <li class="cosials__logo">
+            <a href="https://twitter.com" target="_blank"><img src="./images/twitter.svg" alt="Twitter логотип" class="cosials__logo-img link"></a> 
+          </li>
+          <li class="cosials__logo">
+            <a href="https://instagram.com" target="_blank"><img src="./images/instagram.svg" alt="Instagram логотип" class="cosials__logo-img link"></a>
+          </li>
+          <li class="cosials__logo">
+            <a href="https://facebook.com" target="_blank"><img src="./images/facebook.svg" alt="Facebook логотип" class="cosials__logo-img link"></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero__group">
+          <h1 class="hero__title">Фрилансер</h1>
+          <p class="hero__name">Петр Федоров</p>
+          <p class="hero__description">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина</p>
+          <a href="#introduction" class="hero__button">Бесплатная консультация</a>
+        </div>
+          <img class="hero__avatar" src="./images/hero-avatar.png" alt="Аватар">
+      </section>
+      <section class="description">
+        <div class="description__content">
+          <h2 class="description__tittle">Со мной удобно работать</h2>
+          <ul class="description__block">
+            <li class="description__element">
+              <img class="description__element-img" src="./images/offer-img.svg" alt="Оффер">
+              <h3 class="description__element-title">По договору</h3>
+              <p class="description__element-text">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю как ИП без НДС.</p>
+            </li>
+            <li class="description__element">
+              <img class="description__element-img" src="./images/deadline-img.svg" alt="Дедлайн">
+              <h3 class="description__element-title">Точно в срок</h3>
+              <p class="description__element-text">В договоре прописана моя  ответственность за срок проекта. Если просрочу — плачу неустойку.</p>
+            </li>
+            <li class="description__element">
+              <img class="description__element-img" src="./images/agreement-img.svg" alt="Соглашение">
+              <h3 class="description__element-title">Ценник под вас</h3>
+              <p class="description__element-text">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как складывается цена.</p>
+            </li>
+            <li class="description__element">
+              <img class="description__element-img" src="./images/steps-img.svg" alt="Премежуточные итоги">
+              <h3 class="description__element-title">Премежуточные итоги</h3>
+              <p class="description__element-text">Показываю работу поэтапно, а не в последий момент перед крайним сроком.</p>
+            </li>
+            <li class="description__element">
+              <img class="description__element-img" src="./images/storage-img.svg" alt="Место хранения">
+              <h3 class="description__element-title">Хостинг и домен</h3>
+              <p class="description__element-text">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год + SSL сертификат.</p>
+            </li>
+            <li class="description__element">
+              <img class="description__element-img" src="./images/conversation-img.svg" alt="Связь">
+              <h3 class="description__element-title">Не брошу после сдачи</h3>
+              <p class="description__element-text">Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="portfolio">
+        <div class="portfolio__content">
+          <h2 class="portfolio__title">Выполненные проекты</h2>
+          <ul class="portfolio__block">
+            <li class="portfolio__element portfolio__element_project_first">
+              <h3 class="portfolio__element-title">The curious corner of chamarel</h3>
+              <a href="#" class="portfolio__button">Посмотреть</a>
+            </li>
+            <li class="portfolio__element portfolio__element_project_second">
+              <h3 class="portfolio__element-title">Gymkhana club golf course</h3>
+              <a href="#" class="portfolio__button">Посмотреть</a>
+            </li>
+            <li class="portfolio__element portfolio__element_project_third">
+              <h3 class="portfolio__element-title">Tamarind falls hiking trip - full dayl</h3>
+              <a href="#" class="portfolio__button">Посмотреть</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="gallery" aria-label="Галерея">
+        <div class="gallery__content">
+          <ul class="gallery__block">
+            <li class="gallery__element">
+              <img class="gallery__img link" alt="Стена" src="./images/wall.png">
+            </li>
+            <li class="gallery__element">
+              <img class="gallery__img link" alt="Кафе" src="./images/cafe.png">
+            </li>
+            <li class="gallery__element">
+              <img class="gallery__img link" alt="Встреча" src="./images/meeting.png">
+            </li>
+            <li class="gallery__element">
+              <img class="gallery__img link" alt="Ресторан" src="./images/restaurant.png">
+            </li>
+            <li class="gallery__element">
+              <img class="gallery__img link" alt="Фигма" src="./images/figma.png">
+            </li>
+            <li class="gallery__element">
+              <img class="gallery__img link" alt="Работа" src="./images/work.png">
+            </li>
+            <li class="gallery__element">
+              <img class="gallery__img link" alt="Стена с книгами" src="./images/wall-with-books.png">
+            </li>
+            <li class="gallery__element">
+              <img class="gallery__img link" alt="Стул на стене" src="./images/wall-with-chair.png">
+            </li>
+            <li class="gallery__element">
+              <img class="gallery__img link" alt="Женщина" src="./images/female.png">
+            </li>
+            <li class="gallery__element">
+              <img class="gallery__img link" alt="Документы" src="./images/documents.png">
+            </li>
+            <li class="gallery__element">
+              <img class="gallery__img link" alt="Мост" src="./images/bridge.png">
+            </li>
+            <li class="gallery__element">
+              <img class="gallery__img link" alt="Переговоры" src="./images/conference.png">
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="introduction">
+      <div class="footer__contents">
+        <h2 class="footer__title">Свяжитесь со мной</h2>
+        <div class="footer__block">
+          <form class="footer__form">
+          <h3 class="footer__form-title">Можете просто оставить заявку, я позвоню вам сегодня</h3>
+          <input class="footer__form-input" placeholder="Ваше имя">
+          <input class="footer__form-input" placeholder="Ваш Телефон">
+          <button class="footer__form-button">Бесплатная консультация</button>
+          </form>
+          <div class="footer__content">
+            <div class="footer__contacts">
+              <div class="footer__phone">
+                <h3 class="footer__contacts-title">Телефон</h3>
+                <a class="footer__text link" href="tel:+7 999 123 45 67">+7 999 123 45 67</a>
+              </div>
+              <div class="footer__mail">
+                <h3 class="footer__contacts-title">Почта</h3>
+                <a href="mailto: ivanov@mail.ru" class="footer__text link">ivanov@mail.ru</a>
+              </div>
+              <div class="footer__social">
+                <h3 class="footer__contacts-title">Соцсети</h3>
+                <div class="footer__block-social">
+                  <a href="#" class="footer__text footer__text_type_social link">t.me/ivanov</a>
+                  <a href="#" class="footer__text footer__text_type_social link">vk.me/ivanov</a>
+                  <a href="#" class="footer__text footer__text_type_social link">fb.me/ivanovu</a>
+                </div>
+                <ul class="socials__list-logo">
+                  <li class="cosials__logo">
+                    <a href="https://github.com/" target="_blank"> <img src="./images/github.svg" alt="GitHub логотип" class="cosials__logo-img link"></a>
+                  </li>
+                  <li class="cosials__logo">
+                    <a href="twitter.com" target="_blank"><img src="./images/twitter.svg" alt="Twitter логотип" class="cosials__logo-img link"></a> 
+                  </li>
+                  <li class="cosials__logo">
+                    <a href="instagram.com" target="_blank"><img src="./images/instagram.svg" alt="Instagram логотип" class="cosials__logo-img link"></a>
+                  </li>
+                  <li class="cosials__logo">
+                    <a href="facebook.com" target="_blank"><img src="./images/facebook.svg" alt="Facebook логотип" class="cosials__logo-img link"></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+              <a href="#" class="footer__confidentiality link">Политика конфиденциальности</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
