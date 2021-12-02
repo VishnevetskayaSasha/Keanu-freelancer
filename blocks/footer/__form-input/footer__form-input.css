@@ -1,0 +1,26 @@
+.footer__form-input {
+  width: 304px;
+  height: 31px;
+  background: #F8F8F8;
+  box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+  border-radius: 5px;
+  border: none;
+  margin: 0 auto;
+  color: #949494;
+  padding: 20px 24px 19px 52px;
+  background-size: 15px, 15px;
+  background-position: 24px 28px;
+  background-repeat: no-repeat;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.footer__form-input:first-of-type{
+  background-image: url(../../../../images/user-icon.svg);
+}
+
+.footer__form-input:last-of-type{
+  background-image: url(../../../../images/phone-icon.svg) ;
+  margin: 20px auto 30px;
+}

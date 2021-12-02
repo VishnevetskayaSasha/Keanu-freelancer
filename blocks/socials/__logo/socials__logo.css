@@ -1,0 +1,10 @@
+.socials__logo {
+  list-style-type: none;
+  margin: 0 21px 0 0;
+  opacity: 1;
+  transition: opacity 0.5s linear 0.2s;
+}
+
+.socials__logo:last-of-type {
+  margin-right: 0;
+}

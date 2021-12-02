@@ -1,0 +1,4 @@
+.hero__group{
+  flex-direction: column;
+  max-width: 464px;
+}

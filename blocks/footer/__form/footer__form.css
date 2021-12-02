@@ -1,0 +1,9 @@
+.footer__form {
+  padding: 47px 42px 61px;
+  width: 464px;
+  background-color: #FFFFFF;
+  box-shadow: -5px 5px 0px #FFC41D;
+  border-radius: 5px;
+  text-align:center;
+  box-sizing: border-box;
+}

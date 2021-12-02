@@ -1,0 +1,21 @@
+.hero__button{
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 130%;
+  background: #FFBB01;
+  color: #1B2944;
+  text-decoration: none;
+  box-shadow: 0 4px 0 #B68500;
+  border-radius: 10px;
+  padding: 25px 62px;
+  border: none;
+  opacity: 1;
+  transition: opacity 1s, box-shadow 1s;
+}
+
+.hero__button:hover{
+  cursor: pointer;
+  opacity: 0.9;
+  box-shadow: 0 5px 5px #fbff02fd;
+}

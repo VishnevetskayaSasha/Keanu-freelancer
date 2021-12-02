@@ -1,0 +1,8 @@
+.footer__text_type_social{
+  margin-right: 50px;
+  margin-bottom: 32px;
+}
+
+.footer__text_type_social:last-of-type{
+  margin-right: 0;
+}

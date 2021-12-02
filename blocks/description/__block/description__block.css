@@ -1,0 +1,9 @@
+.description__block{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(304px, 1fr));
+  gap: 66px 16px; /*сначала между строк, потом между столбцов*/
+  max-width: calc(304px*3 + 16px*2);
+}

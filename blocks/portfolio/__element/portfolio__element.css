@@ -1,0 +1,16 @@
+.portfolio__element{
+  width: 304px;
+  height: 304px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+  transition: transform 1.2s;
+}
+
+.portfolio__element:hover{
+  transform: scale(1.04);
+}

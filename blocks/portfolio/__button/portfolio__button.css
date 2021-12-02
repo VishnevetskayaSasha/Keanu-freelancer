@@ -1,0 +1,19 @@
+.portfolio__button{
+  text-decoration: none;
+  padding: 10px 25px;
+  font-weight: 400;
+  margin: 0 0 28px 30px;
+  color: #FFFFFF;
+  font-size: 12px;
+  line-height: 130%;
+  background-color: #EC1F46;
+  border-radius: 4px;
+  box-shadow: 0px 2px 0px #ce1c3e;
+  transition: opacity 1s, box-shadow 1s;
+ max-width: 70px;
+}
+
+.portfolio__button:hover{
+  cursor: pointer;
+  opacity: 0.9;
+}

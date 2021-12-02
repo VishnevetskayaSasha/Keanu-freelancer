@@ -1,0 +1,9 @@
+.footer__form-title {
+  margin: 0 auto 30px;
+  max-width: 380px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+}
