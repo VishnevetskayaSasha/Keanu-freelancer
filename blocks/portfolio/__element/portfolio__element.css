@@ -1,6 +1,5 @@
 .portfolio__element{
   max-width: 304px;
-  max-height: 304px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
