@@ -2,4 +2,17 @@
   display: flex;
   margin: 0;
   padding: 0;
+  align-items: center;
+}
+
+@media screen and (max-width: 946px ) {
+  .socials__list-logo {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 502px ) {
+  .socials__list-logo {
+    margin: 0;
+  }
 }

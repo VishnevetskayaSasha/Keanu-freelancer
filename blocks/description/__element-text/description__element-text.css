@@ -4,3 +4,16 @@
   line-height: 25px;
   margin: 0;
 }
+
+@media screen and (max-width: 455px) {
+  .description__element-text{
+    font-size: 14px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 343px){
+  .description__element-text{
+    max-width: 265px;
+  }
+}

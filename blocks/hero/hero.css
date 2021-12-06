@@ -5,3 +5,22 @@
   padding: 113px 0 71px;
   justify-content:space-between
 }
+
+@media screen and (max-width: 1000px ) {
+  .hero{
+    padding: 113px 20px 71px;
+  }
+}
+
+@media screen and (max-width: 815px ) {
+  .hero{
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 455px ) {
+  .hero{
+   padding-top: 46px;
+   padding-bottom: 67px;
+  }
+}

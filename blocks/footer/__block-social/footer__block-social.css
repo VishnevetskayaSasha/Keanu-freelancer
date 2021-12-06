@@ -1,3 +1,12 @@
 .footer__block-social {
   display: flex;
+  flex-wrap: wrap;
 }
+
+@media screen and (max-width: 1000px) {
+  .footer__block-social {
+    flex-direction: column;
+  }
+}
+
+

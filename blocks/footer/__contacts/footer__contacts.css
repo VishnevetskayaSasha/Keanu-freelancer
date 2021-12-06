@@ -3,3 +3,31 @@
   padding-left: 96px;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 946px ) {
+  .footer__contacts{
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 825px ) {
+  .footer__contacts {
+    flex-direction: row;
+    padding-left: 0;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 645px ) {
+  .footer__contacts {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 502px ) {
+  .footer__contacts {
+    flex-direction: column;
+    text-align: left;
+  }
+}

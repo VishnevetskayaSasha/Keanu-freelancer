@@ -1,22 +1,15 @@
-.footer__phone {
-  margin-right: 116px;
+.footer__mail{
   margin-bottom: 32px;
 }
 
-@media screen and (max-width: 946px ) {
-  .footer__phone{
-    margin-right: 0;
-  }
-}
-
 @media screen and (max-width: 825px ) {
-  .footer__phone{
+  .footer__mail{
     margin-right: 116px;
   }
 }
 
 @media screen and (max-width: 455px){
-  .footer__phone{
+  .footer__mail{
     margin-bottom: 35px;
   }
 }

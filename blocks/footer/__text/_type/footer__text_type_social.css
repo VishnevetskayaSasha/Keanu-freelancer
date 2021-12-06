@@ -6,3 +6,27 @@
 .footer__text_type_social:last-of-type{
   margin-right: 0;
 }
+
+@media screen and (max-width: 1000px ) {
+  .footer__text_type_social{
+    margin-bottom: 5px;
+  }
+  .footer__text_type_social:last-of-type {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 946px ) {
+  .footer__text_type_social {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 455px){
+  .footer__text_type_social:last-of-type{
+    margin-bottom: 35px;
+  }
+  .footer__text_type_social{
+    margin-bottom: 13px;
+  }
+}

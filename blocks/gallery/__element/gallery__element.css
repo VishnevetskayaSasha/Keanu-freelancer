@@ -1,0 +1,9 @@
+.gallery__element{
+  position: relative;
+}
+
+@media screen and (max-width: 744px ) {
+  .gallery__element {
+    margin-bottom: 15px;
+  }
+}

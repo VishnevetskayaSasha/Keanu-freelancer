@@ -7,3 +7,9 @@
   gap: 66px 16px; /*сначала между строк, потом между столбцов*/
   max-width: calc(304px*3 + 16px*2);
 }
+
+@media screen and (max-width: 455px) {
+  .description__block{
+    gap: 30px;
+  }
+}

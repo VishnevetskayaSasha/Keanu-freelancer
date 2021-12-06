@@ -5,3 +5,12 @@
   font-size: 36px;
   line-height: 42px;
 }
+
+@media screen and (max-width: 455px){
+  .footer__title{
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
+    padding-bottom: 60px;
+  }
+}

@@ -26,6 +26,7 @@
 @import url(../blocks/description/__element-img/description__element-img.css);
 @import url(../blocks/description/__element-title/description__element-title.css);
 @import url(../blocks/description/__element-text/description__element-text.css);
+@import url(../blocks/description/__element/description__element.css);
 
 @import url(../blocks/portfolio/portfolio.css);
 @import url(../blocks/portfolio/__title/portfolio__title.css);
@@ -41,9 +42,13 @@
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__content/gallery__content.css);
 @import url(../blocks/gallery/__block/gallery__block.css);
+@import url(../blocks/gallery/__element/gallery__element.css);
+@import url(../blocks/gallery/__img/gallery__img.css);
+@import url(../blocks/gallery/__img-text/gallery__img-text.css);
 
 @import url(../blocks/footer/__phone/footer__phone.css);
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__title/footer__title.css);
 @import url(../blocks/footer/__text/footer__text.css);
 @import url(../blocks/footer/__text/_type/footer__text_type_social.css);
 @import url(../blocks/footer/__phone/footer__phone.css);
@@ -54,6 +59,7 @@
 @import url(../blocks/footer/__contents/footer__contents.css);
 @import url(../blocks/footer/__content/footer__content.css);
 @import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__mail/footer__mail.css);
 @import url(../blocks/footer/__contacts-title/footer__contacts-title.css);
 @import url(../blocks/footer/__confidentiality/footer__confidentiality.css);
 @import url(../blocks/footer/__block/footer__block.css);

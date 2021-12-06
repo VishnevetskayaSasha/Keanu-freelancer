@@ -1,0 +1,5 @@
+@media screen and (max-width: 343px){
+  .description__element{
+    max-width: 265px;
+  }
+}

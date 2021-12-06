@@ -19,3 +19,12 @@
   opacity: 0.9;
   box-shadow: 0 5px 5px #fbff02fd;
 }
+
+@media screen and (max-width: 455px ) {
+  .hero__button {
+    font-size: 10px;
+    line-height: 130%;
+    padding: 15px 60px;
+  }
+}
+

@@ -7,3 +7,11 @@
   gap: 16px;
   max-width: calc(304px*3 + 16px*2);
 }
+
+@media screen and (max-width: 455px){
+  .portfolio__block{
+    gap: 35px;
+    margin: 0 auto;
+  }
+}
+

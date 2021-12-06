@@ -3,3 +3,17 @@
   padding: 64px 0;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1000px ) {
+  .portfolio{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 455px){
+  .portfolio{
+    padding-top: 61px;
+    padding-bottom: 89px;
+  }
+}

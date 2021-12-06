@@ -4,3 +4,11 @@
   line-height: 28px;
   margin: 0 0 20px;
 }
+
+@media screen and (max-width: 455px){
+  .footer__contacts-title{
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 12px;
+  }
+}
